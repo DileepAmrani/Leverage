@@ -1,0 +1,47 @@
+.dashboard-side span{
+  display: block;
+  padding: 5% 1%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+._paper{
+  border-radius: 0!important;
+  border: 8px solid rgb(206, 205, 205)!important;
+}
+._active{
+ background: linear-gradient(to right, #dfdfc6 0%, #ffffff 100%)
+}
+
+.icon{
+  width: 25px;
+  margin-right: 10px;
+}
+
+.post{
+  padding:  2% 3%;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  padding: 5%;
+  text-align: center
+}
+
+.description{
+  font-size: 14px;
+}
+
+.post-image{
+  background-image: url('./../../Images/card-back.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 190px;
+  height: 100%;
+  text-align: center; 
+}
+

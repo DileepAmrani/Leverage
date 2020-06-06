@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+.landing-page{
+/* padding: 5%; */
+background-image: url('./../../Images/landing-page-bg.png');
+background-repeat: no-repeat;
+background-size: 100%;
+min-height: 700px;
+height: 100vh;
+max-height: 1080px;
+
+/* height: 85vh; */
+}
+
+.landing-page .heading{
+    font-size: 50px;
+    font-weight: 400;
+   font-family: 'Roboto', sans-serif;
+
+}
+.landing-page .text{
+    display: block;
+    font-size: 30px;
+    padding-top: 2% ;
+}
+
+.join-btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    outline: none;
+
+    background-color: #1FA7FB;
+}
+
+.more-btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    background-color: transparent;
+    outline: none;
+    
+}
+
+
+/* Home Page CSS */
+
+
+.home_page{
+    text-align: center;
+    height: 100vh;
+}
+.home_page .heading{
+    font-size: 8vh;
+    display: block;
+}
+
+
+.home_page .text{
+    font-size: 4vh;
+    display: block;
+}
+
+.cards-section .card-title{
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+}
+.cards-section .description{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+
+.landing-page{
+background-image: url('./../../Images/landing-page-bg.png');
+background-repeat: no-repeat;
+background-size: 100%;
+min-height: 600px;
+height: 100vh;
+max-height: 1080px;
+
+/* height: 85vh; */
+}
+
+.landing-page .heading{
+    font-size: 40px;
+    font-weight: 400;
+   font-family: 'Roboto', sans-serif;
+
+}
+.landing-page .text{
+    display: block;
+    font-size: 25px;
+    padding-top: 2% ;
+}
+}

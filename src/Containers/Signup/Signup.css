@@ -1,0 +1,14 @@
+.background {
+  background-image: url("./../../Images/Background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 2;
+}
+
+input{
+    border: none;
+}
+input:focus {
+    border: none;
+ border-left: 10px solid #8DCCFB;
+}

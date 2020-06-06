@@ -1,0 +1,24 @@
+.signup-btn{
+    background-color: #1FA7FB;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    vertical-align: super;
+}
+
+
+.logo{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+.logo{
+    width: 200px;
+}
+}
+

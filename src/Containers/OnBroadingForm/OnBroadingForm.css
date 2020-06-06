@@ -1,0 +1,16 @@
+.question{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.paper{
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.paper:hover{
+    background-color: gainsboro;
+}

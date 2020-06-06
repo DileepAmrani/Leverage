@@ -1,0 +1,49 @@
+.payment .title {
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  padding: 5%;
+  padding-bottom: 2%;
+  padding-top: 0;
+  text-align: center;
+}
+.sub-title {
+  font-weight: bold;
+}
+.blue {
+  color: #fff;
+}
+.card-header {
+  background-color: gray;
+  text-align: center;
+}
+.card-bottom-btn{
+  text-align: center;
+
+}
+.dark {
+  background-color: #000 !important;
+  color: #fff;
+}
+.payment .price {
+  font-size: 30px;
+  font-weight: 800;
+  display: block;
+  text-align: center;
+}
+
+._text {
+  vertical-align: bottom;
+  margin-left: 5px;
+}
+.payment_bottom_text{
+  text-align: center;
+  
+  
+padding: 1% 5%;
+}
+.payment_bottom_text span{
+  /* margin: 5% auto; */
+  font-size: 22px;
+  font-weight: 400;
+}

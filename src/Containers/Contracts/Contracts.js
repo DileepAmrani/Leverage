@@ -1,16 +1,11 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
-import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-
 import { Link } from "react-router-dom";
-
 import Profile from "./../../Images/rounded-profile-pic_transparent.png";
 import "./Contracts.css";
 import { Navbar } from "../../Components";
-import { MDBProgress } from "mdbreact";
 import { MDBBtn } from "mdbreact";
-import SemiCircleProgressBar from "react-progressbar-semicircle";
 import LogIcon from "./../../Images/logout-icon.png"
 import {
   Contract,
@@ -77,7 +72,7 @@ class SignUp extends React.Component {
                     Consultation
                   </span>
                 </Link>
-                <img src={LogIcon} width="30px" />
+                <img src={LogIcon} width="30px"  alt='logo-icon'/>
               </Paper>
             </Grid>
 

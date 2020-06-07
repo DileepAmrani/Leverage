@@ -1,9 +1,6 @@
 import React from "react";
 import { Navbar } from "../../Components";
-
-import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import { IconOne, IconTwo, IconThree, IconFour } from "./../../Images";
 import "./HomePage.css";
@@ -67,7 +64,7 @@ class Home extends React.Component {
             <br />
             <div className="cards-section">
               <Grid container spacing={3}>
-                <Grid item xs={6} sm={6} md={3} lg={3} xs={12}>
+                <Grid item  sm={6} md={3} lg={3} xs={12}>
                   <img src={IconOne} alt="icon" />
                   <span className="card-title">HARDSHIP PROGRAM</span>
                   <br />
@@ -76,7 +73,7 @@ class Home extends React.Component {
                     instruments, job loss, ets
                   </span>
                 </Grid>
-                <Grid item xs={6} sm={6} md={3} lg={3} xs={12}>
+                <Grid item  sm={6} md={3} lg={3} xs={12}>
                   <img src={IconTwo} alt="icon" />
 
                   <span className="card-title">LEGAL HELP</span>
@@ -86,7 +83,7 @@ class Home extends React.Component {
                     team at a reduced cost.
                   </span>
                 </Grid>
-                <Grid item xs={6} sm={6} md={3} lg={3} xs={12}>
+                <Grid item  sm={6} md={3} lg={3} xs={12}>
                   <img src={IconThree} alt="icon" />
 
                   <span className="card-title">DOCUMENTS</span>
@@ -96,7 +93,7 @@ class Home extends React.Component {
                     propel their careers.
                   </span>
                 </Grid>
-                <Grid item xs={6} sm={6} md={3} lg={3} xs={12}>
+                <Grid item  sm={6} md={3} lg={3} xs={12}>
                   <img src={IconFour} alt="icon" />
 
                   <span className="card-title">MUSIC DISTRIBUTUTION</span>

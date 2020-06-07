@@ -46,11 +46,11 @@ class Form extends React.Component {
         <Container maxWidth="lg">
           <Grid container direction="row" spacing={3}>
             <Grid item xs={6} sm={6} lg={6} style={{cursor: 'pointer'}} onClick={() => this.props.history.push('/payment')}>
-              <img src={LeftIcon} />
+              <img src={LeftIcon} alt='left icon' />
             </Grid>
 
             <Grid item xs={6} sm={6} lg={6} style={{cursor: 'pointer'}} onClick={() => this.props.history.push('/dashboard')}>
-              <img src={RightIcon} style={{ float: "right" }} />
+              <img src={RightIcon} alt="right icon" style={{ float: "right" }} />
             </Grid>
           </Grid>
         </Container>

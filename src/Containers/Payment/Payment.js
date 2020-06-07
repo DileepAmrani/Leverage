@@ -27,26 +27,26 @@ class Payment extends React.Component {
 
                 <div style={{ padding: "5%" }}>
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Personalized Consultation</span>
                   </span>
                   <br />
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Monthly Webinars</span>
                   </span>
                   <br />
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Exclusive Newsletters</span>
                   </span>
                   <br />
 
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Hardship Help</span>
                   </span>
@@ -58,7 +58,11 @@ class Payment extends React.Component {
                     <br />
                     <br />
                     <br />
-                    <MDBBtn color="primary" style={{ width: "200px" }} onClick={() => this.props.history.push('/dashboard')}>
+                    <MDBBtn
+                      color="primary"
+                      style={{ width: "200px" }}
+                      onClick={() => this.props.history.push("/dashboard")}
+                    >
                       JOIN NOW
                     </MDBBtn>
                   </div>
@@ -80,33 +84,33 @@ class Payment extends React.Component {
 
                 <div style={{ padding: "5%" }}>
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Personalized Consultation</span>
                   </span>
                   <br />
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Monthly Webinars</span>
                   </span>
                   <br />
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Exclusive Newsletters</span>
                   </span>
                   <br />
 
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Hardship Help</span>
                   </span>
                   <br />
 
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text"> Access to Industry Contracts</span>
                   </span>
@@ -117,7 +121,11 @@ class Payment extends React.Component {
                     <br />
                     <br />
                     <br />
-                    <MDBBtn color="primary" style={{ width: "200px" }} onClick={() => this.props.history.push('/dashboard')}>
+                    <MDBBtn
+                      color="primary"
+                      style={{ width: "200px" }}
+                      onClick={() => this.props.history.push("/dashboard")}
+                    >
                       JOIN NOW
                     </MDBBtn>
                   </div>
@@ -138,33 +146,33 @@ class Payment extends React.Component {
 
                 <div style={{ padding: "5%" }}>
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Personalized Consultation</span>
                   </span>
                   <br />
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Monthly Webinars</span>
                   </span>
                   <br />
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Exclusive Newsletters</span>
                   </span>
                   <br />
 
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text">Hardship Help</span>
                   </span>
                   <br />
 
                   <span>
-                    <img src={TickMark} />
+                    <img src={TickMark} alt="" />
 
                     <span className="_text"> Access to Industry Contracts</span>
                   </span>
@@ -175,7 +183,11 @@ class Payment extends React.Component {
                     <br />
                     <br />
                     <br />
-                    <MDBBtn color="dark" style={{ width: "200px" }} onClick={() => this.props.history.push('/dashboard')}>
+                    <MDBBtn
+                      color="dark"
+                      style={{ width: "200px" }}
+                      onClick={() => this.props.history.push("/dashboard")}
+                    >
                       JOIN NOW
                     </MDBBtn>
                   </div>

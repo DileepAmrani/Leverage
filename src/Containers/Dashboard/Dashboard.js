@@ -61,7 +61,7 @@ class SignUp extends React.Component {
                     Consultation
                   </span>
                 </Link>
-                <img src={LogIcon} width="30px" />
+                <img src={LogIcon} width="30px" alt='logo-icon' />
               </Paper>
               <div style={{ padding: "2% 15%" }}>
                 <SemiCircleProgressBar
